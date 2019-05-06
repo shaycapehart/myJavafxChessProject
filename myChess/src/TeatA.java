@@ -20,6 +20,8 @@ import javafx.scene.transform.Scale;
 import javafx.scene.transform.Shear;
 import javafx.scene.transform.Translate;
 import javafx.stage.Stage;
+import javafx.stage.Popup;
+import javafx.scene.control.Label;
 
 public class TeatA extends Application
 {
@@ -55,6 +57,22 @@ public class TeatA extends Application
 		stage.setTitle("3-D Chess");
 		camOffset.getChildren().add(cam);
         resetCam();
+        
+        // create a label 
+        Label label = new Label("This is a Popup");
+        
+        // create a popup 
+        Popup popup = new Popup();
+        
+        // set background 
+        label.setStyle(" -fx-background-color: white;"); 
+   
+        // add the label 
+        popup.getContent().add(label); 
+   
+        // set size of label 
+        label.setMinWidth(80); 
+        label.setMinHeight(50);
 
         final Scene scene = new Scene(camOffset, 800, 600, true);
         scene.setFill(new RadialGradient(225, 0.85, 300, 300, 500, false,
@@ -91,7 +109,14 @@ public class TeatA extends Application
             	PickResult pr = me.getPickResult();
             	if(pr!=null && pr.getIntersectedNode() != null) {
             		Node n = pr.getIntersectedNode();
-            		n.translateXProperty().set(n.getTranslateX()+6);
+            		String boardCheck = n.getId().toString().split("_")[0];
+            		label.setText(boardCheck);
+            		if (!popup.isShowing()) 
+                        popup.show(stage); 
+                    else
+                        popup.hide();
+            		if (!"ChessBoard".equals(boardCheck))
+            			n.translateXProperty().set(n.getTranslateX()+6);
             	}
             }
         });
