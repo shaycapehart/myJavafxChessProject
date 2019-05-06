@@ -12,7 +12,7 @@
 
 <Group id="AddedRootGroup_1556622695107" xmlns:fx="http://javafx.com/fxml">
   <children>
-    <MeshView id="King.001_Cylinder.029" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_King" cullFace="BACK" drawMode="FILL">
       <material>
         <PhongMaterial fx:id="PmFxId_1" specularPower="225.0">
           <diffuseColor>
@@ -32,7 +32,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="Queen.001_Cylinder.028" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Queen" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -45,7 +45,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="Bishop.001_Cylinder.027" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Bishop_1" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -58,7 +58,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="Bishop_2.001_Cylinder.026" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Bishop_2" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -71,7 +71,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.015_Cylinder.025" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Pawn_1" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -84,7 +84,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.014_Cylinder.024" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Pawn_2" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -97,7 +97,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.013_Cylinder.023" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Pawn_3" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -110,7 +110,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.012_Cylinder.022" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Pawn_4" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -123,7 +123,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.011_Cylinder.021" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Pawn_5" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -136,7 +136,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.010_Cylinder.020" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Pawn_6" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -149,7 +149,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.009_Cylinder.019" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Pawn_7" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -162,7 +162,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.008_Cylinder.018" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Pawn_8" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -175,7 +175,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="Knight.003_Cylinder.017" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Knight_1" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -188,7 +188,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="Knight.002_Cylinder.016" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Knight_2" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -201,7 +201,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="LPRook.003_Cylinder.015" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Rook_1" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -214,7 +214,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="LPRook.002_Cylinder.015" cullFace="BACK" drawMode="FILL">
+    <MeshView id="Black_Rook_2" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_1"/>
       </material>
@@ -227,7 +227,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="LPRook.001_Cylinder.013" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Rook_1" cullFace="BACK" drawMode="FILL">
       <material>
         <PhongMaterial fx:id="PmFxId_2" specularPower="225.0">
           <diffuseColor>
@@ -247,7 +247,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="LPRook_Cylinder.013" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Rook_2" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -260,7 +260,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="Knight_Cylinder.011" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Knight_2" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -273,7 +273,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="Knight.001_Cylinder.014" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Knight_1" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -286,7 +286,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.007_Cylinder.008" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Pawn_8" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -299,7 +299,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.006_Cylinder.007" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Pawn_7" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -312,7 +312,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.005_Cylinder.006" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Pawn_6" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -325,7 +325,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.004_Cylinder.005" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Pawn_5" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -338,7 +338,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.003_Cylinder.004" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Pawn_4" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -351,7 +351,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.002_Cylinder.003" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Pawn_3" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -364,7 +364,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn.001_Cylinder.002" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Pawn_2" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -377,7 +377,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="White_Pawn_Cylinder" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Pawn_1" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -390,7 +390,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="Bishop_2_Cylinder.009" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Bishop_2" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -403,7 +403,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="Bishop_Cylinder.001" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Bishop_1" cullFace="BACK" drawMode="FILL">
       <material>
         <PhongMaterial specularPower="225.0">
           <diffuseColor>
@@ -423,7 +423,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="Queen_Cylinder.012" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_Queen" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -436,7 +436,7 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <MeshView id="King_Cylinder.010" cullFace="BACK" drawMode="FILL">
+    <MeshView id="White_King" cullFace="BACK" drawMode="FILL">
       <material>
         <fx:reference source="PmFxId_2"/>
       </material>
@@ -449,9 +449,9 @@
         </TriangleMesh>
       </mesh>
     </MeshView>
-    <Group id="Chessboard">
+    <Group id="ChessBoard">
       <children>
-        <MeshView id="Chessboard_Surround_Plane" cullFace="BACK" drawMode="FILL">
+        <MeshView id="ChessBoard_Surround_Plane" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>

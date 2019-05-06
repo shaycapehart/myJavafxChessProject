@@ -32,6 +32,8 @@ public class TeatA extends Application
     double mouseDeltaX;
     double mouseDeltaY;
     
+    final int stepSize = 6;
+    
     final Cam camOffset = new Cam();
     final Cam cam = new Cam();
     
@@ -109,14 +111,16 @@ public class TeatA extends Application
             	PickResult pr = me.getPickResult();
             	if(pr!=null && pr.getIntersectedNode() != null) {
             		Node n = pr.getIntersectedNode();
-            		String boardCheck = n.getId().toString().split("_")[0];
-            		label.setText(boardCheck);
-            		if (!popup.isShowing()) 
-                        popup.show(stage); 
-                    else
-                        popup.hide();
-            		if (!"ChessBoard".equals(boardCheck))
-            			n.translateXProperty().set(n.getTranslateX()+6);
+            		String[] id_parts = n.getId().toString().split("_");
+            		label.setText(n.getId().toString());
+            		if (!popup.isShowing()) popup.show(stage); 
+            		if (!"ChessBoard".equals(id_parts[0])) {
+            			if ("Black".equals(id_parts[0])) {
+            				n.translateXProperty().set(n.getTranslateX()-stepSize); 
+            			} else {
+            				n.translateXProperty().set(n.getTranslateX()+stepSize);
+            			}
+            		}
             	}
             }
         });
