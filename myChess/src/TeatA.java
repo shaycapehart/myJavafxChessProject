@@ -139,9 +139,9 @@ public class TeatA extends Application
                 }
                 else if (me.isAltDown() && me.isPrimaryButtonDown()) {
                     double ryAngle = cam.ry.getAngle();
-                    cam.ry.setAngle(ryAngle - mouseDeltaY);
+                    cam.ry.setAngle(ryAngle - mouseDeltaX/100.0);
                     double rxAngle = cam.rx.getAngle();
-                    cam.rx.setAngle(rxAngle + mouseDeltaX);
+                    cam.rx.setAngle(rxAngle + mouseDeltaY/100.0);
                 }
                 else if (me.isShiftDown() && me.isPrimaryButtonDown()) {
                     double yShear = shear.getY();
