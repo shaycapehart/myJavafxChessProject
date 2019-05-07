@@ -78,7 +78,7 @@ public class TeatA extends Application
         label.setMinHeight(50);
 
         final Scene scene = new Scene(camOffset, 800, 600, true, SceneAntialiasing.BALANCED);
-        scene.setFill(new RadialGradient(225, 0.85, 300, 300, 500, false,
+        scene.setFill(new RadialGradient(255, 0.85, 400, 300, 500, false,
                                          CycleMethod.NO_CYCLE, new Stop[]
                                          { new Stop(0f, Color.BLUE),
                                            new Stop(1f, Color.LIGHTBLUE) }));
@@ -139,9 +139,9 @@ public class TeatA extends Application
                 }
                 else if (me.isAltDown() && me.isPrimaryButtonDown()) {
                     double ryAngle = cam.ry.getAngle();
-                    cam.ry.setAngle(ryAngle - mouseDeltaX);
+                    cam.ry.setAngle(ryAngle - mouseDeltaY);
                     double rxAngle = cam.rx.getAngle();
-                    cam.rx.setAngle(rxAngle + mouseDeltaY);
+                    cam.rx.setAngle(rxAngle + mouseDeltaX);
                 }
                 else if (me.isShiftDown() && me.isPrimaryButtonDown()) {
                     double yShear = shear.getY();
@@ -271,8 +271,8 @@ public class TeatA extends Application
         cam.t.setX(0.0);
         cam.t.setY(0.0);
         cam.t.setZ(0.0);
-        cam.rx.setAngle(45.0);
-        cam.ry.setAngle(-7.0);
+        cam.rx.setAngle(30.0);
+        cam.ry.setAngle(0.0);
         cam.rz.setAngle(0.0);
         cam.s.setX(1.25);
         cam.s.setY(1.25);
