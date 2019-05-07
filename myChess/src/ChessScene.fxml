@@ -471,7 +471,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Grid.002_White" cullFace="BACK" drawMode="FILL">
+      <MeshView id="ChessBoard_White_b1" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -484,10 +484,630 @@
         </material>
         <mesh>
           <TriangleMesh>
-            <points>-18.0 0.0 -23.999998 -12.0 0.0 -23.999998 -12.0 0.0 -17.999998 -18.0 0.0 -17.999998 -24.0 0.0 -17.999998 -18.0 0.0 -11.999999 -24.0 0.0 -11.999999 -12.0 0.0 -11.999999 -12.0 0.0 -6.0 -18.0 0.0 -6.0 -24.0 0.0 -6.0 -18.0 0.0 0.0 -24.0 0.0 0.0 -12.0 0.0 0.0 -12.0 0.0 6.0 -18.0 0.0 6.0 -24.0 0.0 6.0 -18.0 0.0 11.999999 -24.0 0.0 11.999999 -12.0 0.0 11.999999 -12.0 0.0 17.999998 -18.0 0.0 17.999998 -24.0 0.0 17.999998 -18.0 0.0 23.999998 -24.0 0.0 23.999998 -6.0 0.0 -23.999998 0.0 0.0 -23.999998 0.0 0.0 -17.999998 -6.0 0.0 -17.999998 -6.0 0.0 -11.999999 0.0 0.0 -11.999999 0.0 0.0 -6.0 -6.0 0.0 -6.0 -6.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 6.0 -6.0 0.0 6.0 -6.0 0.0 11.999999 0.0 0.0 11.999999 0.0 0.0 17.999998 -6.0 0.0 17.999998 -6.0 0.0 23.999998 -12.0 0.0 23.999998 6.0 0.0 -23.999998 12.0 0.0 -23.999998 12.0 0.0 -17.999998 6.0 0.0 -17.999998 6.0 0.0 -11.999999 12.0 0.0 -11.999999 12.0 0.0 -6.0 6.0 0.0 -6.0 6.0 0.0 0.0 12.0 0.0 0.0 12.0 0.0 6.0 6.0 0.0 6.0 6.0 0.0 11.999999 12.0 0.0 11.999999 12.0 0.0 17.999998 6.0 0.0 17.999998 6.0 0.0 23.999998 0.0 0.0 23.999998 18.0 0.0 -23.999998 24.0 0.0 -23.999998 24.0 0.0 -17.999998 18.0 0.0 -17.999998 18.0 0.0 -11.999999 24.0 0.0 -11.999999 24.0 0.0 -6.0 18.0 0.0 -6.0 18.0 0.0 0.0 24.0 0.0 0.0 24.0 0.0 6.0 18.0 0.0 6.0 18.0 0.0 11.999999 24.0 0.0 11.999999 24.0 0.0 17.999998 18.0 0.0 17.999998 18.0 0.0 23.999998 12.0 0.0 23.999998</points>
+            <points>-18 0 -24 -12 0 -24 -12 0 -18 -18 0 -18</points>
             <texCoords>0.0 1.0</texCoords>
-            <faces>0 0 1 0 2 0 0 0 2 0 3 0 4 0 3 0 5 0 4 0 5 0 6 0 5 0 7 0 8 0 5 0 8 0 9 0 10 0 9 0 11 0 10 0 11 0 12 0 11 0 13 0 14 0 11 0 14 0 15 0 16 0 15 0 17 0 16 0 17 0 18 0 17 0 19 0 20 0 17 0 20 0 21 0 22 0 21 0 23 0 22 0 23 0 24 0 25 0 26 0 27 0 25 0 27 0 28 0 2 0 28 0 29 0 2 0 29 0 7 0 29 0 30 0 31 0 29 0 31 0 32 0 8 0 32 0 33 0 8 0 33 0 13 0 33 0 34 0 35 0 33 0 35 0 36 0 14 0 36 0 37 0 14 0 37 0 19 0 37 0 38 0 39 0 37 0 39 0 40 0 20 0 40 0 41 0 20 0 41 0 42 0 43 0 44 0 45 0 43 0 45 0 46 0 27 0 46 0 47 0 27 0 47 0 30 0 47 0 48 0 49 0 47 0 49 0 50 0 31 0 50 0 51 0 31 0 51 0 34 0 51 0 52 0 53 0 51 0 53 0 54 0 35 0 54 0 55 0 35 0 55 0 38 0 55 0 56 0 57 0 55 0 57 0 58 0 39 0 58 0 59 0 39 0 59 0 60 0 61 0 62 0 63 0 61 0 63 0 64 0 45 0 64 0 65 0 45 0 65 0 48 0 65 0 66 0 67 0 65 0 67 0 68 0 49 0 68 0 69 0 49 0 69 0 52 0 69 0 70 0 71 0 69 0 71 0 72 0 53 0 72 0 73 0 53 0 73 0 56 0 73 0 74 0 75 0 73 0 75 0 76 0 57 0 76 0 77 0 57 0 77 0 78 0</faces>
-            <faceSmoothingGroups>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</faceSmoothingGroups>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_d1" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-6 0 -24 0 0 -24 0 0 -18 -6 0 -18</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_f1" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>6 0 -24 12 0 -24 12 0 -18 6 0 -18</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_h1" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>18 0 -24 24 0 -24 24 0 -18 18 0 -18</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_a2" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-24 0 -18 -18 0 -18 -18 0 -12 -24 0 -12</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_c2" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-12 0 -18 -6 0 -18 -6 0 -12 -12 0 -12</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_e2" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>0 0 -18 6 0 -18 6 0 -12 0 0 -12</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_g2" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>12 0 -18 18 0 -18 18 0 -12 12 0 -12</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_b3" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-18 0 -12 -12 0 -12 -12 0 -6 -18 0 -6</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_d3" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-6 0 -12 0 0 -12 0 0 -6 -6 0 -6</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_f3" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>6 0 -12 12 0 -12 12 0 -6 6 0 -6</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_h3" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>18 0 -12 24 0 -12 24 0 -6 18 0 -6</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_a4" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-24 0 -6 -18 0 -6 -18 0 0 -24 0 0</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_c4" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-12 0 -6 -6 0 -6 -6 0 0 -12 0 0</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_e4" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>0 0 -6 6 0 -6 6 0 0 0 0 0</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_g4" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>12 0 -6 18 0 -6 18 0 0 12 0 0</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_b5" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-18 0 0 -12 0 0 -12 0 6 -18 0 6</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_d5" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-6 0 0 0 0 0 0 0 6 -6 0 6</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_f5" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>6 0 0 12 0 0 12 0 6 6 0 6</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_h5" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>18 0 0 24 0 0 24 0 6 18 0 6</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_a6" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-24 0 6 -18 0 6 -18 0 12 -24 0 12</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_c6" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-12 0 6 -6 0 6 -6 0 12 -12 0 12</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_e6" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>0 0 6 6 0 6 6 0 12 0 0 12</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_g6" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>12 0 6 18 0 6 18 0 12 12 0 12</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_b7" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-18 0 12 -12 0 12 -12 0 18 -18 0 18</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_d7" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-6 0 12 0 0 12 0 0 18 -6 0 18</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_f7" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>6 0 12 12 0 12 12 0 18 6 0 18</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_h7" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>18 0 12 24 0 12 24 0 18 18 0 18</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_a8" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-24 0 18 -18 0 18 -18 0 24 -24 0 24</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_c8" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>-12 0 18 -6 0 18 -6 0 24 -12 0 24</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_e8" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>0 0 18 6 0 18 6 0 24 0 0 24</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
+          </TriangleMesh>
+        </mesh>
+      </MeshView>
+      <MeshView id="ChessBoard_White_g8" cullFace="BACK" drawMode="FILL">
+        <material>
+          <PhongMaterial specularPower="225.0">
+            <diffuseColor>
+              <Color red="1.0" green="1.0" blue="1.0" opacity="1.0"/>
+            </diffuseColor>
+            <specularColor>
+              <Color red="0.5" green="0.5" blue="0.5" opacity="1.0"/>
+            </specularColor>
+          </PhongMaterial>
+        </material>
+        <mesh>
+          <TriangleMesh>
+            <points>12 0 18 18 0 18 18 0 24 12 0 24</points>
+            <texCoords>0.0 1.0</texCoords>
+            <faces>0 0 1 0 2 0 0 0 2 0 3 0</faces>
+            <faceSmoothingGroups>1 1</faceSmoothingGroups>
           </TriangleMesh>
         </mesh>
       </MeshView>
@@ -504,7 +1124,7 @@
         </material>
         <mesh>
           <TriangleMesh>
-            <points>-24.0 0.0 -23.999998 -18.0 0.0 -23.999998 -18.0 0.0 -17.999998 -24.0 0.0 -17.999998 -12.0 0.0 -17.999998 -12.0 0.0 -11.999999 -18.0 0.0 -11.999999 -24.0 0.0 -11.999999 -18.0 0.0 -6.0 -24.0 0.0 -6.0 -12.0 0.0 -6.0 -12.0 0.0 0.0 -18.0 0.0 0.0 -24.0 0.0 0.0 -18.0 0.0 6.0 -24.0 0.0 6.0 -12.0 0.0 6.0 -12.0 0.0 11.999999 -18.0 0.0 11.999999 -24.0 0.0 11.999999 -18.0 0.0 17.999998 -24.0 0.0 17.999998 -12.0 0.0 17.999998 -12.0 0.0 23.999998 -18.0 0.0 23.999998 -12.0 0.0 -23.999998 -6.0 0.0 -23.999998 -6.0 0.0 -17.999998 0.0 0.0 -17.999998 0.0 0.0 -11.999999 -6.0 0.0 -11.999999 -6.0 0.0 -6.0 0.0 0.0 -6.0 0.0 0.0 0.0 -6.0 0.0 0.0 -6.0 0.0 6.0 0.0 0.0 6.0 0.0 0.0 11.999999 -6.0 0.0 11.999999 -6.0 0.0 17.999998 0.0 0.0 17.999998 0.0 0.0 23.999998 -6.0 0.0 23.999998 0.0 0.0 -23.999998 6.0 0.0 -23.999998 6.0 0.0 -17.999998 12.0 0.0 -17.999998 12.0 0.0 -11.999999 6.0 0.0 -11.999999 6.0 0.0 -6.0 12.0 0.0 -6.0 12.0 0.0 0.0 6.0 0.0 0.0 6.0 0.0 6.0 12.0 0.0 6.0 12.0 0.0 11.999999 6.0 0.0 11.999999 6.0 0.0 17.999998 12.0 0.0 17.999998 12.0 0.0 23.999998 6.0 0.0 23.999998 12.0 0.0 -23.999998 18.0 0.0 -23.999998 18.0 0.0 -17.999998 24.0 0.0 -17.999998 24.0 0.0 -11.999999 18.0 0.0 -11.999999 18.0 0.0 -6.0 24.0 0.0 -6.0 24.0 0.0 0.0 18.0 0.0 0.0 18.0 0.0 6.0 24.0 0.0 6.0 24.0 0.0 11.999999 18.0 0.0 11.999999 18.0 0.0 17.999998 24.0 0.0 17.999998 24.0 0.0 23.999998 18.0 0.0 23.999998</points>
+            <points>-24 0 -24 -18 0 -24 -18 0 -18 -24 0 -18 -12 0 -18 -12 0 -12 -18 0 -12 -24 0 -12 -18 0 -6 -24 0 -6 -12 0 -6 -12 0 0 -18 0 0 -24 0 0 -18 0 6 -24 0 6 -12 0 6 -12 0 12 -18 0 12 -24 0 12 -18 0 18 -24 0 18 -12 0 18 -12 0 24 -18 0 24 -12 0 -24 -6 0 -24 -6 0 -18 0 0 -18 0 0 -12 -6 0 -12 -6 0 -6 0 0 -6 0 0 0 -6 0 0 -6 0 6 0 0 6 0 0 12 -6 0 12 -6 0 18 0 0 18 0 0 24 -6 0 24 0 0 -24 6 0 -24 6 0 -18 12 0 -18 12 0 -12 6 0 -12 6 0 -6 12 0 -6 12 0 0 6 0 0 6 0 6 12 0 6 12 0 12 6 0 12 6 0 18 12 0 18 12 0 24 6 0 24 12 0 -24 18 0 -24 18 0 -18 24 0 -18 24 0 -12 18 0 -12 18 0 -6 24 0 -6 24 0 0 18 0 0 18 0 6 24 0 6 24 0 12 18 0 12 18 0 18 24 0 18 24 0 24 18 0 24</points>
             <texCoords>0.0 1.0</texCoords>
             <faces>0 0 1 0 2 0 0 0 2 0 3 0 2 0 4 0 5 0 2 0 5 0 6 0 7 0 6 0 8 0 7 0 8 0 9 0 8 0 10 0 11 0 8 0 11 0 12 0 13 0 12 0 14 0 13 0 14 0 15 0 14 0 16 0 17 0 14 0 17 0 18 0 19 0 18 0 20 0 19 0 20 0 21 0 20 0 22 0 23 0 20 0 23 0 24 0 25 0 26 0 27 0 25 0 27 0 4 0 27 0 28 0 29 0 27 0 29 0 30 0 5 0 30 0 31 0 5 0 31 0 10 0 31 0 32 0 33 0 31 0 33 0 34 0 11 0 34 0 35 0 11 0 35 0 16 0 35 0 36 0 37 0 35 0 37 0 38 0 17 0 38 0 39 0 17 0 39 0 22 0 39 0 40 0 41 0 39 0 41 0 42 0 43 0 44 0 45 0 43 0 45 0 28 0 45 0 46 0 47 0 45 0 47 0 48 0 29 0 48 0 49 0 29 0 49 0 32 0 49 0 50 0 51 0 49 0 51 0 52 0 33 0 52 0 53 0 33 0 53 0 36 0 53 0 54 0 55 0 53 0 55 0 56 0 37 0 56 0 57 0 37 0 57 0 40 0 57 0 58 0 59 0 57 0 59 0 60 0 61 0 62 0 63 0 61 0 63 0 46 0 63 0 64 0 65 0 63 0 65 0 66 0 47 0 66 0 67 0 47 0 67 0 50 0 67 0 68 0 69 0 67 0 69 0 70 0 51 0 70 0 71 0 51 0 71 0 54 0 71 0 72 0 73 0 71 0 73 0 74 0 55 0 74 0 75 0 55 0 75 0 58 0 75 0 76 0 77 0 75 0 77 0 78 0</faces>
             <faceSmoothingGroups>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</faceSmoothingGroups>
