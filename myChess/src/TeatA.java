@@ -22,6 +22,7 @@ import javafx.scene.transform.Translate;
 import javafx.stage.Stage;
 import javafx.stage.Popup;
 import javafx.scene.control.Label;
+import javafx.scene.SceneAntialiasing;
 
 public class TeatA extends Application
 {
@@ -76,7 +77,7 @@ public class TeatA extends Application
         label.setMinWidth(80); 
         label.setMinHeight(50);
 
-        final Scene scene = new Scene(camOffset, 800, 600, true);
+        final Scene scene = new Scene(camOffset, 800, 600, true, SceneAntialiasing.BALANCED);
         scene.setFill(new RadialGradient(225, 0.85, 300, 300, 500, false,
                                          CycleMethod.NO_CYCLE, new Stop[]
                                          { new Stop(0f, Color.BLUE),
