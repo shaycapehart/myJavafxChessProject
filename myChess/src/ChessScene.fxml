@@ -451,7 +451,7 @@
     </MeshView>
     <Group id="ChessBoard">
       <children>
-        <MeshView id="ChessBoard_Surround_Plane" cullFace="BACK" drawMode="FILL">
+        <MeshView id="Board_Boarder_Plane" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -471,7 +471,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_b1" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_b1" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -491,7 +491,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_d1" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_d1" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -511,7 +511,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_f1" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_f1" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -531,7 +531,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_h1" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_h1" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -551,7 +551,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_a2" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_a2" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -571,7 +571,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_c2" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_c2" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -591,7 +591,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_e2" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_e2" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -611,7 +611,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_g2" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_g2" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -631,7 +631,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_b3" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_b3" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -651,7 +651,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_d3" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_d3" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -671,7 +671,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_f3" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_f3" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -691,7 +691,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_h3" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_h3" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -711,7 +711,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_a4" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_a4" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -731,7 +731,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_c4" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_c4" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -751,7 +751,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_e4" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_e4" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -771,7 +771,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_g4" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_g4" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -791,7 +791,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_b5" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_b5" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -811,7 +811,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_d5" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_d5" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -831,7 +831,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_f5" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_f5" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -851,7 +851,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_h5" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_h5" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -871,7 +871,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_a6" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_a6" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -891,7 +891,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_c6" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_c6" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -911,7 +911,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_e6" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_e6" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -931,7 +931,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_g6" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_g6" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -951,7 +951,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_b7" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_b7" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -971,7 +971,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_d7" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_d7" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -991,7 +991,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_f7" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_f7" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1011,7 +1011,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_h7" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_h7" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1031,7 +1031,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_a8" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_a8" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1051,7 +1051,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_c8" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_c8" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1071,7 +1071,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_e8" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_e8" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1091,7 +1091,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_Black_g8" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_Black_g8" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1111,7 +1111,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_a1" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_a1" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1131,7 +1131,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_c1" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_c1" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1151,7 +1151,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_e1" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_e1" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1171,7 +1171,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_g1" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_g1" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1191,7 +1191,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_b2" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_b2" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1211,7 +1211,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_d2" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_d2" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1231,7 +1231,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_f2" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_f2" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1251,7 +1251,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_h2" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_h2" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1271,7 +1271,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_a3" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_a3" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1291,7 +1291,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_c3" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_c3" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1311,7 +1311,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_e3" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_e3" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1331,7 +1331,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_g3" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_g3" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1351,7 +1351,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_b4" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_b4" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1371,7 +1371,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_d4" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_d4" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1391,7 +1391,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_f4" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_f4" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1411,7 +1411,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_h4" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_h4" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1431,7 +1431,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_a5" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_a5" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1451,7 +1451,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_c5" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_c5" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1471,7 +1471,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_e5" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_e5" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1491,7 +1491,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_g5" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_g5" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1511,7 +1511,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_b6" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_b6" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1531,7 +1531,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_d6" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_d6" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1551,7 +1551,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_f6" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_f6" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1571,7 +1571,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_h6" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_h6" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1591,7 +1591,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_a7" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_a7" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1611,7 +1611,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_c7" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_c7" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1631,7 +1631,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_e7" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_e7" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1651,7 +1651,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_g7" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_g7" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1671,7 +1671,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_b8" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_b8" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1691,7 +1691,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_d8" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_d8" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1711,7 +1711,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_f8" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_f8" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
@@ -1731,7 +1731,7 @@
           </TriangleMesh>
         </mesh>
       </MeshView>
-      <MeshView id="ChessBoard_White_h8" cullFace="BACK" drawMode="FILL">
+      <MeshView id="Board_White_h8" cullFace="BACK" drawMode="FILL">
         <material>
           <PhongMaterial specularPower="225.0">
             <diffuseColor>
